@@ -103,7 +103,22 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation-name: loading;
+    animation-duration: 700ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+@keyframes loading{
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+}
+
+/* ________________________________________________ */
+
 .ex-11-icon {
     font-size: 60px;
 }
