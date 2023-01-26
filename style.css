@@ -103,12 +103,12 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation-name: loading;
+    animation-name: loading-10;
     animation-duration: 700ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-@keyframes loading{
+@keyframes loading-10{
     from {
         transform: rotate(360deg);
     }
@@ -122,6 +122,25 @@
 .ex-11-icon {
     font-size: 60px;
 }
+.ex-11-icon:hover {
+    animation-name: loading-11;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes loading-11{
+    0% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    0% {
+        transform: rotate(0deg);
+    }
+}
+
+/* ________________________________________________ */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
