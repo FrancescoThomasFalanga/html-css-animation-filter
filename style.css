@@ -62,15 +62,28 @@
 
 /* ________________________________________________ */
 
-.ex-6-img, .ex-7-img, .ex-8-img {
+.ex-6-img {
     width: 500px;
 }
 .ex-6-img:hover {
     filter: grayscale(100%);
 }
+
+.ex-7-img {
+    width: 500px;
+    transition: filter 2s ease;
+}
 .ex-7-img:hover {
     filter: grayscale(100%);
-    transition: filter 2s ease;
+}
+
+.ex-8-img {
+    width: 500px;
+    transition: all 2s ease;
+}
+.ex-8-img:hover {
+    border-radius: 15px;
+    filter: grayscale(0.4) sepia(0.7);
 }
 
 /* ________________________________________________ */
