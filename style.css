@@ -74,7 +74,7 @@
     transition: filter 2s ease;
 }
 .ex-7-img:hover {
-    filter: grayscale(100%);
+    filter: grayscale(0.5) sepia(0.4);
 }
 
 .ex-8-img {
